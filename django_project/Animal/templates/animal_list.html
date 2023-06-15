@@ -1,0 +1,7 @@
+ <h1>Animal List</h1>
+<ul>
+{% for animal in animals %}
+    <li>{{ animal.kingdom }} - {{ animal.family }} - {{ animal.cpecie }} - {{ animal.lifespan }}</li>
+{% endfor %}
+</ul>
+
